@@ -62,10 +62,8 @@ section{padding:96px 0}
 /* Services */
 .services{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .card{background:var(--surface);border:1px solid var(--line);padding:30px}
-.card .num{font-family:var(--serif);color:var(--accent);font-size:1.1rem;margin-bottom:12px;display:block}
 .card p{color:var(--muted);margin:0;font-size:.97rem}
 .card-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
-.card-head .num{margin:0}
 .card .icon{width:40px;height:40px;color:var(--accent);flex:none}
 
 /* Leistungsphasen 1–9 */
@@ -162,6 +160,7 @@ footer a{color:var(--muted)}
   .services{grid-template-columns:repeat(2,1fr)}
   .steps{grid-template-columns:repeat(2,1fr)}
   .lph-list{grid-template-columns:repeat(2,1fr)}
+  .lph-list li:last-child{grid-column:1/-1}
   .lph-head{grid-template-columns:1fr}
   .trust ul{grid-template-columns:repeat(2,1fr)}
 }
