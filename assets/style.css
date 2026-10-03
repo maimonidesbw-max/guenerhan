@@ -81,7 +81,7 @@ section{padding:96px 0}
 
 /* Profile */
 .profile-grid{display:grid;grid-template-columns:320px 1fr;gap:64px;align-items:start}
-.profile-photo img{width:100%;aspect-ratio:405/531;object-fit:cover;filter:grayscale(15%)}
+.profile-photo img{width:100%;aspect-ratio:900/1174;object-fit:cover;object-position:50% 25%}
 .profile-photo figcaption{font-size:.85rem;color:var(--muted);margin-top:10px}
 .quals{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 40px;margin-top:32px}
 .quals h3{font-family:var(--sans);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
